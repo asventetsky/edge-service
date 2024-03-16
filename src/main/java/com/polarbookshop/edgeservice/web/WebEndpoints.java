@@ -9,7 +9,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Mono;
 
 @Configuration
-public class WebEnpoints {
+public class WebEndpoints {
 
     @Bean
     public RouterFunction<ServerResponse> routerFunction() {
